@@ -40,7 +40,7 @@ def SEND_MAIL():
     smtp_server = "smtp.gmail.com"
     sender_email = "DiasGuSaid2016@gmail.com"
     receiver_email = "DiasGuSaid2016@gmail.com"
-    password = "123581321said"
+    password = "***********"
 
     mac_id = ':'.join(re.findall('..', '%012x' % mac()))
     ip_id = requests.get("https://ramziv.com/ip").text
